@@ -1,0 +1,31 @@
+package com.randioo.randioo_box.protocol;
+
+message CommandClickRequest{
+	repeated string path = 1;
+	
+}
+
+message CommandClickResponse{
+	
+}
+
+message CommandDataRequest{	
+	optional bytes data = 1;
+}
+
+message CommandClickResponse{
+	
+}
+
+message CommandCoordRequest{
+	optional double x = 1;
+	optional double y = 2;
+}
+
+message CommandCoordResponse{
+	
+}
+
+message SCCommand{
+	repeated sting path = 1;	
+}

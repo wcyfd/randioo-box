@@ -1,0 +1,9 @@
+package com.randioo.mahjong_public_server.protocol;
+
+message RoleData{
+	optional int32 roleId = 1;
+	optional string roomId = 2;
+	optional int32 point = 3;
+	optional int32 sex = 4;
+	optional int32 serverTime = 5;
+}

@@ -1,0 +1,14 @@
+package com.randioo.randioo_box.protocol;
+import "Login.proto";
+import "Heart.proto";
+import "Command.proto";
+
+message CS{
+	optional HeartRequest HeartRequest = 1;
+	
+	optional LoginCheckAccountRequest LoginCheckAccountRequest = 2;
+	optional LoginCreateRoleRequest LoginCreateRoleRequest = 3;
+	optional LoginGetRoleDataRequest LoginGetRoleDataRequest = 4;
+
+	optional ClickRequest clickRequest = 1;
+} // 26
